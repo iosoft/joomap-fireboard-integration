@@ -6,7 +6,7 @@ After installation, open the file  */administrator/*components/com_joomap/plugin
 Search for the line -
 
 {{{
-define("timeFrame", 2); // (0 to 9999) integer only*
+define("timeFrame", 2); // (0 to 9999) integer only
 }}}
 
 This variable is the _Time Frame Controller_.
