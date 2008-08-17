@@ -1,13 +1,17 @@
-#summary One-sentence summary of this page.
+#summary About Me.
 
 = Introduction =
 
-Add your content here.
+
+Joomap is one of the BEST site-map component for Joomla.
+Fireboard is going to be the BEST forum component for Joomla.
+
+But, till now, there was no way to include forum contents and categories within Joomap's tree structure.
+Here is the plug-in to include Fireboard Forum contents in your Joomap and Joomap-Google map. 
+
+== License ==
+
+This plug-in and its source code is licensed under [http://creativecommons.org/licenses/by-nc-nd/2.5/in/ Creative Commons Noncommercial-No Derivative Works 2.5 India]
 
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+You can tweak the code for your own requirement(s) but you *can not* reproduce/redistribute code with changes. You *can* suggest _features_ and _bugs_. I will add them in next release.
