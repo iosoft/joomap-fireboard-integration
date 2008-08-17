@@ -1,13 +1,12 @@
-#summary One-sentence summary of this page.
+#summary How to install this plug-in ?
+#labels Phase-Deploy
 
-= Introduction =
+*Installation*
 
-Add your content here.
+  # Hope you have already installed Fireboard and Joomap and both of them working fine.
+  # Download the _fireboard.plugin.php_ file.
+  # put the file _fireboard.plugin.php_ in */administrator/*components/com_joomap/plugins/
 
+That's it. The plug-in should start working. You should see Fireboard's Topics and Categories in Joomap.
 
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+For detailed configuration, see - [http://code.google.com/p/joomap-fireboard-integration/wiki/Parameter Configuration]
