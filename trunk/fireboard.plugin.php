@@ -30,7 +30,7 @@
 /////////////////////////////////////////////////////////////////
 
 // no direct access
-defined('_VALID_MOS') or die('Direct Access to this location is not allowed.');
+defined( '_VALID_MOS' ) or defined('_JEXEC') or die( 'Direct Access to this location is not allowed.' );
 
 /**
 * This timeFrame variable controls how much old (year) forum threads Joomap will display in its sitemap.
