@@ -1,22 +1,21 @@
 <?php
 /**
 * 
-* Integrates FireBoard forum structure into Joomap-Tree in a proper way with valid links.
+* Integrates Kunena forum structure into Joomap-Tree in a proper way with valid links.
 * ---------------------------------------------------------------------------------------
 * @Joomap Add-on
 * @author Mr. Ayan Debnath, INDIA. (a.k.a iosoft)
 * @email futureiosoft@yahoo.co.uk (I do reply queries but please don't SPAM me)
-* @version 5.0 fireboard.plugin.php 4.59KB 2009-02-20
+* @version 1.0 kunena.plugin.php 4.53KB 2009-02-20
 * @Copyright (C) 2007 - 2008 Future iOsoft Technology,INDIA. All rights reserved.
 * @This work is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 2.5 India License.
 * @license http://creativecommons.org/licenses/by-nc-nd/2.5/in/
 *
 *
-* Based on Fireboard Component 1.0.3 and above.
-* @Copyright (C) 2006 - 2007 Best Of Joomla All rights reserved
+* Based on Kunena Component 1.0.7 and above.
+* @Copyright (C) 2008 - 2009 Kunena Team All rights reserved
 * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
-* @author TSMF & Jan de Graaff
-* @link http://www.bestofjoomla.com
+* @link http://www.kunena.com
 * 
 * -- and --
 * 
@@ -58,16 +57,16 @@ define("timeFrame", 2); // (0 to 9999) integer only
 /////////////////////////////////////////////////////
 
 // Register with the Joomap Plugin Manager
-$tmp = new Joomap_fireboard;
+$tmp = new Joomap_kunena;
 JoomapPlugins::addPlugin($tmp);
 
-/* Handles FireBoard forum structure */
-class Joomap_fireboard
+/* Handles Kunena forum structure */
+class Joomap_kunena
 {
 	/* Check if we are responsible for this kind of content */
 	function isOfType( &$joomla, &$parent )
 	{
-		if( (strpos($parent->link, 'option=com_fireboard')) && !(strpos($parent->link, 'func=showcat'))) return true;
+		if( (strpos($parent->link, 'option=com_kunena')) && !(strpos($parent->link, 'func=showcat'))) return true;
 		return false;
 	} /* end of function */
 
