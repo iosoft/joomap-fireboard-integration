@@ -2,9 +2,9 @@
 
 = Introduction =
 
-
-Joomap is one of the BEST site-map component for Joomla.
-Fireboard is going to be the BEST forum component for Joomla.
+*Joomap* is the BEST site-map component for Joomla.
+_Fireboard_ was one of the best forum component for Joomla.
+_Kunena_ is the latest forum component for Joomla.
 
 But, till now, there was no way to include forum contents and categories within Joomap's tree structure.
 Here is the plug-in to include Fireboard Forum contents in your Joomap and Joomap-Google map. 
