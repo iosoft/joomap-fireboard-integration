@@ -3,7 +3,7 @@
 
 *Installation*
 
-  # Hope you have already installed Fireboard and Joomap and both of them working fine.
+  # Hope you have already installed Fireboard/Kunena and Joomap and both of them working fine.
   # Download the _fireboard.plugin.php_ file.
   # put the file _fireboard.plugin.php_ in */administrator/*components/com_joomap/plugins/
 
